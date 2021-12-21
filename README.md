@@ -88,6 +88,28 @@ On Windows, creating symlinks requires administrator privileges, so
 unfortunately you need to run the above command in an administrator terminal for
 it to work.
 
+### Adding Support for Additional Keyboard Layouts
+
+To add support for a new keyboard layout, add a module in
+`src/module/keyboard-layouts` for it, analogous to the existing keyboard
+layouts. The module needs to export an object of the following form:
+
+```ts
+{
+  KEYCODE_DISPLAY_MAPPING?: Record<string, string>,
+  KEYBINDING_MAPPING?: Record<string, string>,
+}
+```
+
+* `KEYCODE_DISPLAY_MAPPING` is used to change how certain key codes are
+  displayed. It is an object that has key codes as keys and the strings as which
+  they should be displayed as values.
+* `KEYBINDING_MAPPING` is used to change which key codes keybindings are being
+  registered for. It is an object that has key codes as keys and the key codes
+  that should actually be used instead as values.
+
+Then simply import this object in `src/module/keyboard-layouts/index.js` and put
+it in the exported object.
 
 ## Licensing
 

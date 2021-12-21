@@ -1,4 +1,4 @@
-import { packageName } from './const';
+import { packageName } from './const.js';
 
 const loggingContext = packageName;
 const loggingSeparator = '|';
