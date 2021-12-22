@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 const manifest = {
   filename: 'src/module.json',
   updater: require('./manifest-version-updater'),

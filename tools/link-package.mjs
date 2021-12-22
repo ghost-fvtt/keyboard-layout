@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 import fs from 'fs-extra';
 import path from 'node:path';
 import yargs from 'yargs';

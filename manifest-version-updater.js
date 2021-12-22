@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 const stringifyPackage = require('stringify-package');
 
 const githubRepository = 'https://github.com/ghost-fvtt/keyboard-layout';

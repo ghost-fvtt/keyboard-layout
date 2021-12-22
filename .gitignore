@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 Johannes Loher
+#
+# SPDX-License-Identifier: MIT
+
 node_modules/
 foundry.js
 dist/

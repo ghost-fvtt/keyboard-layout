@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 import { keyboardLayouts } from './keyboard-layouts/index.js';
 
 const DEFAULT_KEYCODE_DISPLAY_MAPPING = KeyboardManager.KEYCODE_DISPLAY_MAPPING;
