@@ -114,8 +114,8 @@ The module needs to export an object of the following form:
   settings.
 
 Then simply import this object in `src/module/keyboard-layouts/index.js` and put
-it in the exported object. Also don't forget to add translations for the i18n
-key that was added.
+it in the exported object. Also, don't forget to add translations for the i18n
+key that has just been added.
 
 ## Licensing
 
