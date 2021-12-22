@@ -19,6 +19,7 @@ keyboard layout to be used for keybindings. Supported keyboard layouts:
 
 * US (QWERTY) (this is the default that foundry also uses without this module)
 * German (QWERTZ)
+* Swedish (QWERTY)
 
 ## Installation
 
