@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 import { packageName } from '../const.js';
 import { keyboardLayouts } from '../keyboard-layouts/index.js';
 import { logger } from '../logger.js';

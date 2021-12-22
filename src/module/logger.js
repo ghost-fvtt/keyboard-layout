@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 import { packageName } from './const.js';
 
 const loggingContext = packageName;

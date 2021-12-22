@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 import { adjustKeycodeDisplayMapping } from '../adjust-keycode-display-mapping.js';
 import { packageName } from '../const.js';
 import { registerSettings } from '../settings.js';

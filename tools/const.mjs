@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 export const name = 'keyboard-layout';
 export const sourceDirectory = './src';
 export const distDirectory = './dist';

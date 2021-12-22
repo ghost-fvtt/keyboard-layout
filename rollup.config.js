@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+//
+// SPDX-License-Identifier: MIT
+
 import copy from '@guanghechen/rollup-plugin-copy';
 import sourcemaps from 'rollup-plugin-sourcemaps';
 import { terser } from 'rollup-plugin-terser';
