@@ -41,6 +41,6 @@ function _mapKeyCodeInBinding(binding) {
  * @returns {string} The mapped key code
  */
 function _mapKeyCode(keyCode) {
-  const keyboardLayoutName = game.settings.get(packageName, 'keyboard-layout');
-  return keyboardLayouts[keyboardLayoutName].KEYBINDING_MAPPING?.[keyCode] ?? keyCode;
+  const keyboardLayoutId = game.settings.get(packageName, 'keyboard-layout');
+  return keyboardLayouts[keyboardLayoutId].keybindingMapping?.[keyCode] ?? keyCode;
 }
