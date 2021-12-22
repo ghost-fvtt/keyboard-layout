@@ -3,5 +3,5 @@
   "KEYBOARDLAYOUT.SettingsKeyboardLayoutHint": "Choose the keyboard layout to use for keybindings.",
   "KEYBOARDLAYOUT.KeyboardLayoutUS": "US (QWERTY)",
   "KEYBOARDLAYOUT.KeyboardLayoutDeLatin1": "German (QWERTZ)",
-  "KEYBOARDLAYOUT.KeyboardLayoutSvLatin": "Swedish (QWERTY)"
+  "KEYBOARDLAYOUT.KeyboardLayoutSvLatin1": "Swedish (QWERTY)"
 }

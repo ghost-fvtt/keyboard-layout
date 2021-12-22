@@ -5,10 +5,10 @@
 
 import { us } from './us.js';
 import { deLatin1 } from './de-latin1.js';
-import { svLatin } from './sv-latin.js';
+import { svLatin1 } from './sv-latin1.js';
 
 export const keyboardLayouts = {
   us,
   deLatin1,
-  svLatin,
+  svLatin1,
 };
