@@ -2,5 +2,6 @@
   "KEYBOARDLAYOUT.SettingsKeyboardLayoutName": "Tastaturbelegung",
   "KEYBOARDLAYOUT.SettingsKeyboardLayoutHint": "Wähle die Tastaturbelegung aus, die für Shortcuts verwendet werden soll.",
   "KEYBOARDLAYOUT.KeyboardLayoutUS": "US (QWERTY)",
-  "KEYBOARDLAYOUT.KeyboardLayoutDeLatin1": "Deutsch (QWERTZ)"
+  "KEYBOARDLAYOUT.KeyboardLayoutDeLatin1": "Deutsch (QWERTZ)",
+  "KEYBOARDLAYOUT.KeyboardLayoutSvLatin1": "Schwedisch (QWERTY)"
 }
