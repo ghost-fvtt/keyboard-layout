@@ -1,24 +1,23 @@
 export const deLatin1 = {
   keycodeDisplayMapping: {
-    KeyZ: 'Y',
-    KeyY: 'Z',
     Minus: 'ß',
-    Equal: '`',
+    Equal: '´',
     Backquote: '^',
+    Backslash: '#',
     BracketLeft: 'Ü',
     BracketRight: '+',
-    Semicolon: 'Ö',
-    Quote: 'Ä',
-    Backslash: '#',
     IntlBackslash: '<',
+    KeyY: 'Z',
+    KeyZ: 'Y',
+    Quote: 'Ä',
+    Semicolon: 'Ö',
     Slash: '-',
   },
 
   keybindingMapping: {
-    KeyZ: 'KeyY',
     KeyY: 'KeyZ',
+    KeyZ: 'KeyY',
     Minus: 'Slash',
-    Backquote: 'Equal',
   },
 
   i18n: 'KEYBOARDLAYOUT.KeyboardLayoutDeLatin1',
