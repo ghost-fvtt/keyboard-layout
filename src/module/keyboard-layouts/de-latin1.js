@@ -1,5 +1,5 @@
-export const QWERTZ = {
-  KEYCODE_DISPLAY_MAPPING: {
+export const deLatin1 = {
+  keycodeDisplayMapping: {
     KeyZ: 'Y',
     KeyY: 'Z',
     Minus: 'ß',
@@ -14,10 +14,12 @@ export const QWERTZ = {
     Slash: '-',
   },
 
-  KEYBINDING_MAPPING: {
+  keybindingMapping: {
     KeyZ: 'KeyY',
     KeyY: 'KeyZ',
     Minus: 'Slash',
     Backquote: 'Equal',
   },
+
+  i18n: 'KEYBOARDLAYOUT.KeyboardLayoutDeLatin1',
 };

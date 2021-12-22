@@ -10,8 +10,8 @@
 A module for [Foundry Virtual Tabletop] that allows users to select their
 keyboard layout to be used for keybindings. Supported keyboard layouts:
 
-* QWERTY (this is the default that foundry also uses without this module)
-* QWERTZ
+* US (QWERTY) (this is the default that foundry also uses without this module)
+* German (QWERTZ)
 
 ## Installation
 
@@ -92,24 +92,30 @@ it to work.
 
 To add support for a new keyboard layout, add a module in
 `src/module/keyboard-layouts` for it, analogous to the existing keyboard
-layouts. The module needs to export an object of the following form:
+layouts. The naming convention should follow the one for keymaps in Linux
+(see https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration).
+The module needs to export an object of the following form:
 
 ```ts
 {
-  KEYCODE_DISPLAY_MAPPING?: Record<string, string>,
-  KEYBINDING_MAPPING?: Record<string, string>,
+  keycodeDisplayMapping?: Record<string, string>,
+  keybindingMapping?: Record<string, string>,
+  i18n: string
 }
 ```
 
-* `KEYCODE_DISPLAY_MAPPING` is used to change how certain key codes are
+* `keycodeDisplayMapping` is used to change how certain key codes are
   displayed. It is an object that has key codes as keys and the strings as which
   they should be displayed as values.
-* `KEYBINDING_MAPPING` is used to change which key codes keybindings are being
+* `keybindingMapping` is used to change which key codes keybindings are being
   registered for. It is an object that has key codes as keys and the key codes
   that should actually be used instead as values.
+* `i18n` is the i18n key that's being used to show they keyboard layout on the
+  settings.
 
 Then simply import this object in `src/module/keyboard-layouts/index.js` and put
-it in the exported object.
+it in the exported object. Also don't forget to add translations for the i18n
+key that was added.
 
 ## Licensing
 

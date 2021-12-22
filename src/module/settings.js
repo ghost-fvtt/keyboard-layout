@@ -8,15 +8,17 @@ export function registerSettings() {
     hint: 'KEYBOARDLAYOUT.SettingsKeyboardLayoutHint',
     scope: 'client',
     config: true,
-    default: 'QWERTY',
+    default: 'us',
     type: String,
-    choices: Object.fromEntries(Object.keys(keyboardLayouts).map((keyboardLayout) => [keyboardLayout, keyboardLayout])),
-    onChange: _onChangeKeyboardLeyout,
+    choices: Object.fromEntries(
+      Object.entries(keyboardLayouts).map(([id, keyboardLayout]) => [id, keyboardLayout.i18n]),
+    ),
+    onChange: _onChangeKeyboardLayout,
   });
 }
 
-function _onChangeKeyboardLeyout(keyboardLayoutName) {
-  adjustKeycodeDisplayMapping(keyboardLayoutName);
+function _onChangeKeyboardLayout(keyboardLayoutId) {
+  adjustKeycodeDisplayMapping(keyboardLayoutId);
   game.keybindings.initialize();
   Object.values(ui.windows)
     .filter((app) => app instanceof KeybindingsConfig)
