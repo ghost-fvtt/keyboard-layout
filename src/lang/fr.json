@@ -1,0 +1,8 @@
+{
+  "KEYBOARDLAYOUT.SettingsKeyboardLayoutName": "Disposition du clavier",
+  "KEYBOARDLAYOUT.SettingsKeyboardLayoutHint": "Choisissez la disposition du clavier à utiliser pour les combinaisons de touches",
+  "KEYBOARDLAYOUT.KeyboardLayoutUS": "US (QWERTY)",
+  "KEYBOARDLAYOUT.KeyboardLayoutDeLatin1": "Allemand (QWERTZ)",
+  "KEYBOARDLAYOUT.KeyboardLayoutSvLatin1": "Suédois (QWERTY)",
+  "KEYBOARDLAYOUT.KeyboardLayoutFr": "Français (AZERTY)"
+}
