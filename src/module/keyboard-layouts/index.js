@@ -1,5 +1,6 @@
 // SPDX-FileCopyrightText: 2021 Johannes Loher
 // SPDX-FileCopyrightText: 2021 Martin (fohswe#8355), GH: plutoneld
+// SPDX-FileCopyrightText: 2021 Max VS (Maximus#6001)
 //
 // SPDX-License-Identifier: MIT
 

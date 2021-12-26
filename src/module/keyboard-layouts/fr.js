@@ -1,4 +1,5 @@
 // SPDX-FileCopyrightText: 2021 Max VS (Maximus#6001)
+//
 // SPDX-License-Identifier: MIT
 
 export const fr = {
