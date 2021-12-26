@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/ghost-fvtt/keyboard-layout/compare/v1.0.0...v1.1.0) (2021-12-26)
+
+
+### Features
+
+* add support for French (AZERTY) ([08605be](https://github.com/ghost-fvtt/keyboard-layout/commit/08605beed84f0566349d4bd61fe15959e007f2c9))
+
 ## [1.0.0](https://github.com/ghost-fvtt/keyboard-layout/compare/v0.1.0...v1.0.0) (2021-12-22)
 
 
