@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ghost-fvtt/keyboard-layout/compare/v1.1.0...v1.2.0) (2021-12-27)
+
+
+### Features
+
+* add support for Dvorak and Colemak ([9a13c31](https://github.com/ghost-fvtt/keyboard-layout/commit/9a13c31220a7023194817d2c565ff83f5856728e)), closes [#6](https://github.com/ghost-fvtt/keyboard-layout/issues/6)
+
 ## [1.1.0](https://github.com/ghost-fvtt/keyboard-layout/compare/v1.0.0...v1.1.0) (2021-12-26)
 
 
