@@ -4,5 +4,7 @@
   "KEYBOARDLAYOUT.KeyboardLayoutUS": "US (QWERTY)",
   "KEYBOARDLAYOUT.KeyboardLayoutDeLatin1": "Allemand (QWERTZ)",
   "KEYBOARDLAYOUT.KeyboardLayoutSvLatin1": "Suédois (QWERTY)",
-  "KEYBOARDLAYOUT.KeyboardLayoutFr": "Français (AZERTY)"
+  "KEYBOARDLAYOUT.KeyboardLayoutFr": "Français (AZERTY)",
+  "KEYBOARDLAYOUT.KeyboardLayoutColemak": "Colemak",
+  "KEYBOARDLAYOUT.KeyboardLayoutDvorak": "Dvorak"
 }

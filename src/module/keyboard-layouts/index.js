@@ -4,14 +4,18 @@
 //
 // SPDX-License-Identifier: MIT
 
-import { us } from './us.js';
+import { colemak } from './colemak.js';
 import { deLatin1 } from './de-latin1.js';
-import { svLatin1 } from './sv-latin1.js';
+import { dvorak } from './dvorak.js';
 import { fr } from './fr.js';
+import { svLatin1 } from './sv-latin1.js';
+import { us } from './us.js';
 
 export const keyboardLayouts = {
-  us,
+  colemak,
   deLatin1,
-  svLatin1,
+  dvorak,
   fr,
+  svLatin1,
+  us,
 };

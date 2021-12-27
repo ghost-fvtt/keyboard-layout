@@ -21,6 +21,8 @@ keyboard layout to be used for keybindings. Supported keyboard layouts:
 * German (QWERTZ)
 * Swedish (QWERTY)
 * French (AZERTY)
+* Dvorak
+* Colemak
 
 ## Installation
 
