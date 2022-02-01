@@ -102,7 +102,7 @@ it to work.
 ### Adding Support for Additional Keyboard Layouts
 
 To add support for a new keyboard layout, add a module in
-`src/module/keyboard-layouts` for it, analogous to the existing keyboard
+`src/keyboard-layouts` for it, analogous to the existing keyboard
 layouts. The naming convention should follow the one for keymaps in Linux
 (see https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration).
 The module needs to export an object of the following form:
@@ -124,7 +124,7 @@ The module needs to export an object of the following form:
 * `i18n` is the i18n key that's being used to show they keyboard layout on the
   settings.
 
-Then simply import this object in `src/module/keyboard-layouts/index.js` and put
+Then simply import this object in `src/keyboard-layouts/index.js` and put
 it in the exported object. Also, don't forget to add translations for the i18n
 key that has just been added.
 
