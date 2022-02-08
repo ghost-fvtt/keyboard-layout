@@ -1,6 +1,6 @@
 {
   "name": "keyboard-layout",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A module for Foundry Virtual Tabletop that allows users to select their keyboad layout to be used for keybindings.",
   "private": true,
   "scripts": {
