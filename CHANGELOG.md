@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/ghost-fvtt/keyboard-layout/compare/v1.2.3...v1.3.0) (2022-07-17)
+
+
+### Features
+
+* declare V10 compatibility ([96722a5](https://github.com/ghost-fvtt/keyboard-layout/commit/96722a50aa15ed8b5a4b649bb6fee97693654686))
+
 ### [1.2.3](https://github.com/ghost-fvtt/keyboard-layout/compare/v1.2.2...v1.2.3) (2022-02-08)
 
 ### [1.2.2](https://github.com/ghost-fvtt/keyboard-layout/compare/v1.2.1...v1.2.2) (2022-02-01)
