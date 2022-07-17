@@ -1,5 +1,6 @@
 {
   "name": "keyboard-layout",
+  "id": "keyboard-layout",
   "title": "Keyboard Layout",
   "description": "A module for Foundry Virtual Tabletop that allows users to select their keyboard layout to be used for keybindings.",
   "authors": [
@@ -17,7 +18,11 @@
   "changelog": "https://raw.githubusercontent.com/ghost-fvtt/keyboard-layout/v1.2.3/CHANGELOG.md",
   "version": "1.2.3",
   "minimumCoreVersion": "9.238",
-  "compatibleCoreVersion": "9",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "9.238",
+    "verified": "10"
+  },
   "esmodules": ["keyboard-layout.js"],
   "languages": [
     {
@@ -44,9 +49,22 @@
   "dependencies": [
     {
       "name": "lib-wrapper",
+      "id": "lib-wrapper",
       "type": "module"
     }
   ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.12.7.0",
+          "verified": "1.12.7.0"
+        }
+      }
+    ]
+  },
   "manifest": "https://github.com/ghost-fvtt/keyboard-layout/releases/latest/download/module.json",
   "download": "https://github.com/ghost-fvtt/keyboard-layout/releases/download/v1.2.3/module.zip",
   "manifestPlusVersion": "1.2.0"
