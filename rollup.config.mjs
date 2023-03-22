@@ -3,8 +3,7 @@
 // SPDX-License-Identifier: MIT
 
 import copy from '@guanghechen/rollup-plugin-copy';
-import sourcemaps from 'rollup-plugin-sourcemaps';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
 
 import { distDirectory, name, sourceDirectory } from './tools/const.mjs';
 
@@ -32,7 +31,6 @@ const config = {
     assetFileNames: '[name].[ext]',
   },
   plugins: [
-    sourcemaps(),
     copy({
       targets: [{ src: staticFiles, dest: distDirectory }],
     }),
