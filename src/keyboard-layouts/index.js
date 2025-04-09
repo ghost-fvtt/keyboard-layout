@@ -10,6 +10,7 @@ import { dvorak } from './dvorak.js';
 import { fr } from './fr.js';
 import { svLatin1 } from './sv-latin1.js';
 import { us } from './us.js';
+import { hu } from './hu.js';
 
 export const keyboardLayouts = {
   colemak,
@@ -18,4 +19,5 @@ export const keyboardLayouts = {
   fr,
   svLatin1,
   us,
+  hu,
 };
