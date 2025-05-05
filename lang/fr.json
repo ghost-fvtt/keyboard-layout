@@ -6,5 +6,6 @@
   "KEYBOARDLAYOUT.KeyboardLayoutSvLatin1": "Suédois (QWERTY)",
   "KEYBOARDLAYOUT.KeyboardLayoutFr": "Français (AZERTY)",
   "KEYBOARDLAYOUT.KeyboardLayoutColemak": "Colemak",
-  "KEYBOARDLAYOUT.KeyboardLayoutDvorak": "Dvorak"
+  "KEYBOARDLAYOUT.KeyboardLayoutDvorak": "Dvorak",
+  "KEYBOARDLAYOUT.KeyboardLayoutHu": "Hongroise (QWERTZ)"
 }
